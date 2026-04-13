@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <link rel="shortcut icon" href="employee.webp" type="image/x-icon">
+    <title>Modern Admin Dashboard</title>
+</head>
+<body>
+    <input type="checkbox" id="menu-toggle">
+    <div class="sidebar">
+        <div class="side-header">
+            <h3>K<span>M</span>H</h3>
+        </div>
+         
+         <div class="profile">
+            <div class="profile-img bg-img" style="background-image: url(passport.jpg);"></div>
+            <h4>Nelson Kariuki</h4>
+            <small>Web Developer</small>
+         </div>
+        <div class="side-menu">
+            <ul>
+                <li>
+                    <a href="" class="active">
+                        <i class='bx bxs-dashboard' ></i>
+                        <small>Dashboard</small>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <i class='bx bxs-user' ></i>
+                        <small>Profile</small>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <i class='bx bxs-envelope' ></i>
+                        <small>Mailbox</small>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <i class='bx bxs-bar-chart-alt-2' ></i>
+                        <small>Projects</small>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <i class='bx bxs-briefcase' ></i>
+                        <small>Orders</small>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <i class='bx bxs-message-rounded' ></i>
+                        <small>Tasks</small>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        <header>
+            <div class="header-content">
+                 <label for="menu-toggle">
+                    <i class='bx bx-menu'></i>
+                 </label>
+                 <div class="header-menu">
+                    <label for="">
+                        <i class='bx bx-search'></i>
+                    </label>
+
+                    <div class="notify-icon">
+                         <i class='bx bx-chat'></i>
+                        <span class="notify">3</span>
+                    </div>
+                    <div class="notify-icon">
+                        <i class='bx bxs-bell'></i>
+                        <span class="notify">8</span>
+                    </div>
+                    <div class="user">
+                        <div class="bg-img" style="background-image: url(passport.jpg);"></div>
+                       <i class='bx bx-power-off'></i>
+                        <span>Logout</span>
+                    </div>
+                 </div>
+            </div>
+        </header>
+        <main>
+            <div class="page-header">
+                <h2>Dashboard</h2>
+                <small>Welcome to the Admin Dashboard</small>
+            </div>
+            <div class="page-content">
+            <div class="analytics">
+              <div class="card">
+                <div class="card-head">
+                    <h2> 102,000</h2>
+                     <i class='bx bx-user-circle'></i>
+                </div>
+                <div class="card-progress">
+                    <small>User Activity</small>
+                    <div class="card-indicator">
+                        <div class="indicator one" style="width: 80%">
+                        
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+               <div class="card">
+                <div class="card-head">
+                    <h2> 350,000</h2>
+                       <i class='bx bx-low-vision'></i>
+                </div>
+                <div class="card-progress">
+                    <small>Page Views</small>
+                    <div class="card-indicator">
+                        <div class="indicator two" style="width: 60%">
+                        
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+               <div class="card">
+                <div class="card-head">
+                    <h2>ksh 348,000</h2>
+                      <i class='bx bx-wallet'></i>
+                </div>
+                <div class="card-progress">
+                    <small>Monthly Revenue Growth</small>
+                    <div class="card-indicator">
+                        <div class="indicator three" style="width: 70%;">
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <div class="card">
+                <div class="card-head">
+                    <h2> 40</h2>
+                     <i class='bx bx-envelope'></i>
+                </div>
+                <div class="card-progress">
+                    <small>New E-mails Received </small>
+                    <div class="card-indicator">
+                        <div class="indicator four" style="width: 90%">
+                        
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+             <div class="records table-responsive">
+               <div class="record-header">
+                <div class="add">
+                <span>Entries</span>
+                <select name="" id="">
+                    <option value="">ID</option>
+                </select>
+                <button>Add Record</button>
+                </div>
+                <div class="browse">
+                    <input type="search" placeholder="Search" class="record-search">
+                    <select name="" id="">
+                        <option value="">Status</option>
+                    </select>
+                </div>
+               </div>
+               <div>
+                <table width="100%">
+                    <thead>
+                    <tr>
+                        <th><i class='bx bx-male-female'></i>#</th>
+                        <th><i class='bx bx-clipboard'></i>CLIENT</th>
+                        <th><i class='bx bxs-calculator'></i>TOTAL</th>
+                        <th><i class='bx bx-calendar-check' ></i>ISSUED DATE</th>
+                        <th><i class='bx bx-money-withdraw'></i>BALANCE</th>
+                        <th><i class='bx bx-accessibility'></i>ACTIONS</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>#0001</td>
+                        <td>
+                            <div class="client">
+                            <img src="mum4.jpg" alt="" width="40px" height="40px">
+                            <div class="client-info">
+                                <h4>Grace Wambui</h4>
+                                <small>Hillux motors.com</small>
+                            </div>
+                            </div>
+                        </td>
+                        <td>
+                            ksh 8.2 M
+                        </td>
+                        <td>
+                            12 Aug, 2023
+                        </td>
+                        <td>
+                             <span class="paid">Paid</span>
+                        </td>
+                    <td>
+                        <div class="actions">
+                             <i class='bx bxl-telegram' ></i>
+                            <i class='bx bx-edit-alt'></i>
+                            <i class='bx bx-trash'></i>
+                        </div>
+                    </td>
+                    </tr>
+
+                     <tr>
+                        <td>#0002</td>
+                        <td>
+                            <div class="client">
+                            <img src="eunice.jpg" alt="" width="40px" height="40px">
+                            <div class="client-info">
+                                <h4>Eunice Waweru</h4>
+                                <small>Eukneek Software Solutions</small>
+                            </div>
+                            </div>
+                        </td>
+                        <td>
+                            ksh 5.2 M
+                        </td>
+                        <td>
+                            12 Aug, 2023
+                        </td>
+                        <td>
+                             <span class="paid">Paid</span>
+                        </td>
+                    <td>
+                        <div class="actions">
+                             <i class='bx bxl-telegram' ></i>
+                            <i class='bx bx-edit-alt'></i>
+                            <i class='bx bx-trash'></i>
+                        </div>
+                    </td>
+                    </tr>
+
+                     <tr>
+                        <td>#0003</td>
+                        <td>
+                            <div class="client">
+                            <img src="emma.jpg" alt="" width="40px" height="40px">
+                            <div class="client-info">
+                                <h4>Immaculate Emma</h4>
+                                <small>Hives Pastries</small>
+                            </div>
+                            </div>
+                        </td>
+                        <td>
+                            ksh 1.2 M
+                        </td>
+                        <td>
+                            15 Aug, 2023
+                        </td>
+                        <td>
+                            - ksh 800,000
+                        </td>
+                    <td>
+                        <div class="actions">
+                             <i class='bx bxl-telegram' ></i>
+                            <i class='bx bx-edit-alt'></i>
+                            <i class='bx bx-trash'></i>
+                        </div>
+                    </td>
+                    </tr>
+
+                     <tr>
+                        <td>#0004</td>
+                        <td>
+                            <div class="client">
+                            <img src="soji.jpg" alt="" width="40px" height="40px">
+                            <div class="client-info">
+                                <h4>Risper Nyagaiti</h4>
+                                <small>Contractor</small>
+                            </div>
+                            </div>
+                        </td>
+                        <td>
+                            ksh 1.4 M
+                        </td>
+                        <td>
+                            20 Aug, 2023
+                        </td>
+                        <td>
+                            - ksh 1 M
+                        </td>
+                    <td>
+                        <div class="actions">
+                             <i class='bx bxl-telegram' ></i>
+                            <i class='bx bx-edit-alt'></i>
+                            <i class='bx bx-trash'></i>
+                        </div>
+                    </td>
+                    </tr>
+
+                     <tr>
+                        <td>#0005</td>
+                        <td>
+                            <div class="client">
+                            <img src="tyron.jpg" alt="" width="40px" height="40px">
+                            <div class="client-info">
+                                <h4>Tyron Karanja</h4>
+                                <small>BMW Motors</small>
+                            </div>
+                            </div>
+                        </td>
+                        <td>
+                            ksh 5.2 M
+                        </td>
+                        <td>
+                            23 Aug, 2023
+                        </td>
+                        <td>
+                             <span class="paid">Paid</span>
+                        </td>
+                    <td>
+                        <div class="actions">
+                             <i class='bx bxl-telegram' ></i>
+                            <i class='bx bx-edit-alt'></i>
+                            <i class='bx bx-trash'></i>
+                        </div>
+                    </td>
+                    </tr>
+
+                     <tr>
+                        <td>#0006</td>
+                        <td>
+                            <div class="client">
+                            <img src="cornelius.jpg" alt="" width="40px" height="40px">
+                            <div class="client-info">
+                                <h4>Cornelius Maina</h4>
+                                <small>SaninPinky Agency</small>
+                            </div>
+                            </div>
+                        </td>
+                        <td>
+                            ksh 4 M
+                        </td>
+                        <td>
+                            25 Aug, 2023
+                        </td>
+                        <td>
+                             <span class="paid">Paid</span>
+                        </td>
+                    <td>
+                        <div class="actions">
+                             <i class='bx bxl-telegram' ></i>
+                            <i class='bx bx-edit-alt'></i>
+                            <i class='bx bx-trash'></i>
+                        </div>
+                    </td>
+                    </tr>
+
+                     <tr>
+                        <td>#0007</td>
+                        <td>
+                            <div class="client">
+                            <img src="lx 570.jpg" alt="" width="40px" height="40px">
+                            <div class="client-info">
+                                <h4>Louis Waigera</h4>
+                                <small>DT Dobie Motors</small>
+                            </div>
+                            </div>
+                        </td>
+                        <td>
+                            ksh 10.3 M
+                        </td>
+                        <td>
+                            28 Aug, 2023
+                        </td>
+                        <td>
+                            - ksh 8.9 M
+                        </td>
+                    <td>
+                        <div class="actions">
+                             <i class='bx bxl-telegram' ></i>
+                            <i class='bx bx-edit-alt'></i>
+                            <i class='bx bx-trash'></i>
+                        </div>
+                    </td>
+                    </tr>
+
+                     <tr>
+                        <td>#0008</td>
+                        <td>
+                            <div class="client">
+                            <img src="rolls royce phantom.jpg" alt="" width="40px" height="40px">
+                            <div class="client-info">
+                                <h4>Shadrach Kipkemoi</h4>
+                                <small>Rolls Royce Agency</small>
+                            </div>
+                            </div>
+                        </td>
+                        <td>
+                            ksh 9.2 M
+                        </td>
+                        <td>
+                            31 Aug, 2023
+                        </td>
+                        <td>
+                            - ksh 7.6 M
+                        </td>
+                    <td>
+                        <div class="actions">
+                             <i class='bx bxl-telegram' ></i>
+                            <i class='bx bx-edit-alt'></i>
+                            <i class='bx bx-trash'></i>
+                        </div>
+                    </td>
+                    </tr>
+
+                     <tr>
+                        <td>#0009</td>
+                        <td>
+                            <div class="client">
+                            <img src="escalade.jpg" alt="" width="40px" height="40px">
+                            <div class="client-info">
+                                <h4>Joyce Wangari</h4>
+                                <small>BusinessWoman</small>
+                            </div>
+                            </div>
+                        </td>
+                        <td>
+                            ksh 3.5 M
+                        </td>
+                        <td>
+                            2 September, 2023
+                        </td>
+                        <td>
+                             <span class="paid">Paid</span>
+                        </td>
+                    <td>
+                        <div class="actions">
+                             <i class='bx bxl-telegram' ></i>
+                            <i class='bx bx-edit-alt'></i>
+                            <i class='bx bx-trash'></i>
+                        </div>
+                    </td>
+                    </tr>
+
+                     <tr>
+                        <td>#0010</td>
+                        <td>
+                            <div class="client">
+                            <img src="e-commerce logo.jpeg" alt="" width="40px" height="40px">
+                            <div class="client-info">
+                                <h4>Anne Wanjiru</h4>
+                                <small>CEO of KMH</small>
+                            </div>
+                            </div>
+                        </td>
+                        <td>
+                            ksh 15.9 M
+                        </td>
+                        <td>
+                            5 Aug, 2023
+                        </td>
+                        <td>
+                            - ksh 13.5 M
+                        </td>
+                    <td>
+                        <div class="actions">
+                             <i class='bx bxl-telegram' ></i>
+                            <i class='bx bx-edit-alt'></i>
+                            <i class='bx bx-trash'></i>
+                        </div>
+                    </td>
+                    </tr>
+
+                     <tr>
+                        <td>#0011</td>
+                        <td>
+                            <div class="client">
+                            <img src="doc nyamu.webp" alt="" width="40px" height="40px">
+                            <div class="client-info">
+                                <h4>DR SK Nyamu</h4>
+                                <small>Founder of KMH</small>
+                            </div>
+                            </div>
+                        </td>
+                        <td>
+                            ksh 20.9 M
+                        </td>
+                        <td>
+                            8 Aug, 2023
+                        </td>
+                        <td>
+                            - ksh 19.1 M
+                        </td>
+                    <td>
+                        <div class="actions">
+                             <i class='bx bxl-telegram' ></i>
+                            <i class='bx bx-edit-alt'></i>
+                            <i class='bx bx-trash'></i>
+                        </div>
+                    </td>
+                    </tr>
+
+                     <tr>
+                        <td>#0012</td>
+                        <td>
+                            <div class="client">
+                            <img src="kmh 2.jpg" alt="" width="40px" height="40px">
+                            <div class="client-info">
+                                <h4>Harriet Nyamu</h4>
+                                <small>MD of KMH</small>
+                            </div>
+                            </div>
+                        </td>
+                        <td>
+                            ksh 13.2 M
+                        </td>
+                        <td>
+                            12 Aug, 2023
+                        </td>
+                        <td>
+                             <span class="paid">Paid</span>
+                        </td>
+                    <td>
+                        <div class="actions">
+                            <i class='bx bxl-telegram' ></i> 
+                            <i class='bx bx-edit-alt'></i>
+                            <i class='bx bx-trash'></i>
+                        </div>
+                    </td>
+                    </tr>
+                    </tbody>
+                </table>
+                </div>
+               </div>
+             </div>
+             </div>
+        </main>
+    </div>
+</body>
+</html>
